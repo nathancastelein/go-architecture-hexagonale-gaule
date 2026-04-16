@@ -56,7 +56,7 @@ var PotionMagique = Recette{
 			Nom: "Faire bouillir les fraifles",
 			Base: Ingrédient{
 				Nom:      "fraifles",
-				Quantité: 14,
+				Quantité: 20,
 			},
 			Action:              Bouillir,
 			NomIngrédientObtenu: "fraifles bouillies",
@@ -65,7 +65,7 @@ var PotionMagique = Recette{
 			Nom: "Ajouter le gui",
 			Base: Ingrédient{
 				Nom:      "fraifles bouillies",
-				Quantité: 14,
+				Quantité: 20,
 			},
 			Avec: Ingrédient{
 				Nom:      "feuille de gui coupée à la serpe d'or",
@@ -78,7 +78,7 @@ var PotionMagique = Recette{
 			Nom: "Verser le lait doré",
 			Base: Ingrédient{
 				Nom:      "fraifles au gui",
-				Quantité: 14,
+				Quantité: 21,
 			},
 			Avec: Ingrédient{
 				Nom:      "lait doré",
@@ -91,7 +91,7 @@ var PotionMagique = Recette{
 			Nom: "Faire bouillir le précurseur",
 			Base: Ingrédient{
 				Nom:      "précurseur de potion magique",
-				Quantité: 28,
+				Quantité: 35,
 			},
 			Action:              Bouillir,
 			NomIngrédientObtenu: "potion magique",

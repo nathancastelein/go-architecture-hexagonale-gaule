@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log/slog"
 	"os"
 
 	"github.com/nathancastelein/go-architecture-hexagonale-gaule/internal/panoramix/clix"
@@ -44,6 +45,7 @@ func main() {
 
 	// Exécution
 	if err := cliAdapter.Exécuter(); err != nil {
+		slog.Error("problème lors de l'exécution du druide", slog.Any("erreur", err))
 		os.Exit(1)
 	}
 }
