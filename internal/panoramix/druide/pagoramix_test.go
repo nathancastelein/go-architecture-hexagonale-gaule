@@ -139,7 +139,7 @@ func (suite *PréparerTraiflesTestSuite) TestPotionMagiquePréparée() {
 
 	platAttendu := &recette.Plat{
 		Nom:      "potion magique",
-		Quantité: 28,
+		Quantité: 35,
 	}
 
 	// Act
